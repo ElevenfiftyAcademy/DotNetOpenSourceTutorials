@@ -9,6 +9,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BasicConditionals_JSW", "..
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WorkingWithIntegers_JSW", "WorkingWithIntegers_JSW\WorkingWithIntegers_JSW.xproj", "{46875DAC-60B9-4175-8494-7698D592B81D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC_Explanation", "MVC_Explanation", "{D7A9BA14-57B6-4968-BB36-B727FBB35009}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "StringsExample_JSW", "StringsExample_JSW\StringsExample_JSW.xproj", "{DB155812-1973-4074-8359-07E02DEBA3EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,15 @@ Global
 		{46875DAC-60B9-4175-8494-7698D592B81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46875DAC-60B9-4175-8494-7698D592B81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46875DAC-60B9-4175-8494-7698D592B81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB155812-1973-4074-8359-07E02DEBA3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB155812-1973-4074-8359-07E02DEBA3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB155812-1973-4074-8359-07E02DEBA3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB155812-1973-4074-8359-07E02DEBA3EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D994501-F32C-4474-90F1-CDFE9EDB2197} = {D7A9BA14-57B6-4968-BB36-B727FBB35009}
 	EndGlobalSection
 EndGlobal
