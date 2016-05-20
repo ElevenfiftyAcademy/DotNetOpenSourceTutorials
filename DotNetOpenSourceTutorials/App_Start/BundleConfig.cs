@@ -1,6 +1,8 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
+//What you're doing here is bundling. Bundling helps you throw a bunch of files into a single file. This means that you won't have as many HTTP requests, 
+//which can improve page loading performance.
 namespace DotNetOpenSourceTutorials
 {
     public class BundleConfig
@@ -8,8 +10,11 @@ namespace DotNetOpenSourceTutorials
         // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
+            //Creates a new JS bundle 
+            //Includes files from the Scripts folder.
+
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/Scripts/jquery-{version}.js")); // ->{version} gets the version of jquery
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
