@@ -1,4 +1,6 @@
-﻿using System;
+﻿/*Create a function that counts how many vowels are in a sentence.*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
