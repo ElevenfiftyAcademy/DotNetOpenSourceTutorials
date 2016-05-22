@@ -17,9 +17,13 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Loops_JSW", "Loops_JSW\Loop
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ForEachChallenge_JSW", "ForEachChallenge_JSW\ForEachChallenge_JSW.xproj", "{42AC093C-0E8B-4275-8FB6-16C4F8D09D9D}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HowManyVowelsChallenge", "HowManyVowelsChallenge\HowManyVowelsChallenge.xproj", "{8B64592A-BC90-47D9-8E29-C7DF434C0485}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HowManyVowelsChallenge_JSW", "HowManyVowelsChallenge\HowManyVowelsChallenge_JSW.xproj", "{8B64592A-BC90-47D9-8E29-C7DF434C0485}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IntroToFunctions", "IntroToFunctions\IntroToFunctions.xproj", "{83D33BDB-FAF6-4C5F-82AF-BDDBE1323B8B}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IntroToFunctions_JSW", "IntroToFunctions\IntroToFunctions_JSW.xproj", "{83D33BDB-FAF6-4C5F-82AF-BDDBE1323B8B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetflixChallenge_JSW", "NetflixChallenge_JSW\NetflixChallenge_JSW.xproj", "{418B228D-1F2E-406A-9EC4-395DE5219587}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetflixChallengeAnswer_JSW", "NetflixChallengeAnswer_JSW\NetflixChallengeAnswer_JSW.xproj", "{F5C14A98-D09F-44D9-B595-4905FFC7B354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,14 @@ Global
 		{83D33BDB-FAF6-4C5F-82AF-BDDBE1323B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83D33BDB-FAF6-4C5F-82AF-BDDBE1323B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83D33BDB-FAF6-4C5F-82AF-BDDBE1323B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418B228D-1F2E-406A-9EC4-395DE5219587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418B228D-1F2E-406A-9EC4-395DE5219587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418B228D-1F2E-406A-9EC4-395DE5219587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418B228D-1F2E-406A-9EC4-395DE5219587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C14A98-D09F-44D9-B595-4905FFC7B354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C14A98-D09F-44D9-B595-4905FFC7B354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C14A98-D09F-44D9-B595-4905FFC7B354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C14A98-D09F-44D9-B595-4905FFC7B354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
